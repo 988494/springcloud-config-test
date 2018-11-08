@@ -17,7 +17,7 @@ eureka:
       defaultZone: http://eureka7001-dev.com:7001/eureka
 ---
 server:
-  port: 8201
+  port: 8202
 spring:
   profiles: test
   application:
@@ -26,6 +26,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    service-url:
+    service-url: 
       defaultZone: http://eureka7001-test.com:7001/eureka
   
